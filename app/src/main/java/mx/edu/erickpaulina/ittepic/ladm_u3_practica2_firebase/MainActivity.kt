@@ -27,6 +27,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this,MainActivity2::class.java)
             startActivity(intent)
 
+            AlertDialog.Builder(this).setMessage("¿DESEAS ACTUALIZAR LA LISTA?")
+                .setPositiveButton("SI"){d,i->llenarTabla()}
+                .setNegativeButton("NO"){d,i-> d.cancel()}
+                .show()
         }
         btnSincronizar.setOnClickListener {
             actualizarFirebase()

@@ -29,7 +29,7 @@ class MainActivity2 : AppCompatActivity() {
             if(resultado){
                 //positivo
                 Toast.makeText(this,"ÉXITO, SE INSERTO",Toast.LENGTH_LONG).show()
-                MainActivity().llenarTabla()
+                this.finish()
             }else{
                 //negativo
                 Toast.makeText(this,"ERROR NO SE INSERTO",Toast.LENGTH_LONG).show()
