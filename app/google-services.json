@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "462170543773",
+    "project_id": "unidad3practica2-8f0c2",
+    "storage_bucket": "unidad3practica2-8f0c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:462170543773:android:309039351438fbda5c6674",
+        "android_client_info": {
+          "package_name": "mx.edu.erickpaulina.ittepic.ladm_u3_practica2_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "462170543773-vda5q3iqq26sftg23n6f1ih8iq30l040.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5uao8Nt69MkVjhqUV-WTth_G42xCvfD4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "462170543773-vda5q3iqq26sftg23n6f1ih8iq30l040.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
